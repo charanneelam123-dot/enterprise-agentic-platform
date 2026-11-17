@@ -1,5 +1,7 @@
 # Enterprise Agentic AI Platform
 
+**[Open the live app](https://enterprise-agentic-platform-s0cj.onrender.com)** · [API documentation](https://enterprise-agentic-platform-s0cj.onrender.com/docs)
+
 A work request should not become an external action just because a model said so.
 
 The application implements ten registered enterprise workflows using LangGraph

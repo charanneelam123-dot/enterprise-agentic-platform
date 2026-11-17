@@ -1,0 +1,19 @@
+{
+  "repo": "enterprise-agentic-platform",
+  "url": "https://enterprise-agentic-platform-s0cj.onrender.com",
+  "health": "passed",
+  "functional_check": {
+    "checkpoint_resume": "passed",
+    "review": "rejected sandbox proposal"
+  },
+  "deployment_status": "live",
+  "deployed_code_commit": "779cd12871124c58ed60f9516301d5b95b0c923c",
+  "deploy_id": "dep-dbuduot6e07s73fb53k0",
+  "verified_on": "2026-11-17",
+  "compute_plan": "free",
+  "auto_deploy": false,
+  "limitations": [
+    "Model calls require server-side credentials and operator token.",
+    "Free instance storage is ephemeral; idle starts may take time."
+  ]
+}
