@@ -1,0 +1,12 @@
+[
+ {"id":"vendor-onboarding","title":"Vendor onboarding","policy":"A new vendor needs a completed security questionnaire and owner review before activation.","action":"request_vendor_review"},
+ {"id":"access-review","title":"Access review","policy":"Privileged access requires an owner and a dated justification. Missing evidence goes to human review.","action":"request_access_review"},
+ {"id":"expense-review","title":"Expense review","policy":"Expenses over 500 USD require a manager receipt review. The agent may only draft a review request.","action":"request_receipt_review"},
+ {"id":"contract-review","title":"Contract review","policy":"A changed notice period or missing owner requires manual contract review. Do not provide legal advice.","action":"request_contract_review"},
+ {"id":"incident-triage","title":"Incident triage","policy":"An incident needs log evidence and an owner before escalation. No automated production changes are permitted.","action":"draft_incident_escalation"},
+ {"id":"customer-escalation","title":"Customer escalation","policy":"A priority customer case needs an assigned owner and documented impact before escalation.","action":"draft_customer_escalation"},
+ {"id":"data-quality","title":"Data quality review","policy":"A dataset with missing required fields must be reviewed before downstream publication.","action":"request_dataset_review"},
+ {"id":"invoice-match","title":"Invoice matching","policy":"An invoice total must match the purchase order. Differences need a human accounts review. Never initiate payment.","action":"request_invoice_review"},
+ {"id":"release-readiness","title":"Release readiness","policy":"A release requires passing checks and a rollback owner. Missing approval prevents automatic release.","action":"request_release_review"},
+ {"id":"policy-question","title":"Policy clarification","policy":"Answers must cite policy wording. If the supplied record is incomplete, draft a clarification request.","action":"draft_policy_clarification"}
+]
